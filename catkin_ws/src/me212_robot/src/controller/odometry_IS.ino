@@ -46,7 +46,7 @@ void loop() {
    theta = d_theta + theta;
 
    x = x + (cos(theta)*dis_R+cos(theta)*dis_L)/2;
-   y = y + (sin(theta)+dis_R+sin(theta)*dis_L)/2;
+   y = y + (sin(theta)*dis_R+sin(theta)*dis_L)/2;
 
   ///////////////////////////////////////////////////////////////////
   msg.data_length = 3;
